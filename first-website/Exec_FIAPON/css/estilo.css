@@ -1,0 +1,205 @@
+#loja
+{
+    background-color: rgb(255, 255, 255);
+    color: rgba(102, 0, 0, 1);
+    width: 980px;
+    justify-content:center;
+}
+
+#serviços{
+    background-color: rgb(255, 255, 255);
+    color: rgba(102, 0, 0, 1);
+    margin: auto;
+    
+    justify-content:center;
+}
+
+table{
+    flex-direction: row;
+    border: 2; 
+    border-color: black;
+    align-content: center;
+}
+
+tr th{
+    color: aliceblue;
+    align-items: center;
+}
+
+#banner{
+    
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(27, 142, 153);
+    overflow: hidden;
+    height: 45px;
+    width: 980px;
+    margin: auto;
+}
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(146, 201, 206, 1);
+    color: black;
+    ;
+  }
+  
+  /* Add a color to the active/current link */
+  
+   
+  .botnav {
+    background-color:rgba(102, 0, 0, 1);
+    overflow: hidden;
+    height: 45px;
+    width: 980px;
+    margin: auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .botnav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .botnav a:hover {
+    background-color: #ddd;
+    color: black;
+    ;
+  }
+  
+h2 #loja-drone{
+    color: black;
+
+}
+
+
+#linha{
+    height: 0.2em;
+    color: #333;
+    size: 10px;
+    background-color: rgb(2, 14, 14);
+}
+ 
+  .row {
+	flex-direction: row;
+}
+.row-reverse {
+	flex-direction: row;
+}
+.column {
+	flex-direction: column;
+}
+.column-reverse {
+	flex-direction: column-reverse;
+}
+
+#back-loja-description{
+    background-color: rgb(255, 255, 255);
+    color: rgba(102, 0, 0, 1);
+}
+
+
+/* Flex Container */
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+    justify-content: center;
+}
+/* Flex Item */
+
+.item {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 5px;
+	background: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 1.5em;
+    justify-content: center;
+    flex-grow: 1;
+     
+    
+}
+
+#separacao{
+    height: 5px;
+    background-color:black;
+}
+
+.item2 {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 5px;
+	background: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#borda{
+border: 2ch;
+border-width: 20px;
+border-color: black;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+#loja-background-h4-azul{
+    background-color: aqua;
+    margin: auto;
+    height: 30px;
+    align-items:stretch;
+}
+#loja-background-h4-red{
+    background-color: rgba(102, 0, 0, 1);
+    color: #ccc;
+    margin: auto;
+    
+    height: 30px;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+    padding: 0%;
+    width: 980px;
+    margin:auto;
+    
+}
+
+
+.foot{
+}
+
+#footer-azul{
+    background-color: rgba(146, 201, 206, 1);
+    flex: 1;
+    flex-direction: row;
+    width: 980px;
+}
