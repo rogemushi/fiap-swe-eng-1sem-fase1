@@ -1,7 +1,7 @@
 # Nome: Roger Viana Gonçalves de Alencar
 # RM: 97540
 
-# Capitulo 07 - Advanced concepts of algorithms and flowcharts for logic in decision making
+# Capitulo 07 - "Advanced" concepts of algorithms and flowcharts for logic in decision making
 
 anos = float(input("Tempo como fumante (em anos)......:"))
 preco = float(input("Valor do maço....................:"))
